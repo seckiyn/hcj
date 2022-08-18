@@ -1,0 +1,23 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: orange;
+    font-size: 3em;
+}
+
+li {
+    color: green;
+}
+
+li li.not-li {
+    color: red;
+    list-style-type: none;
+}
+
+li li.extra-important {
+    color: darkred;
+    list-style-type: none;
+    font-size: 0.4em;
+}
