@@ -1,0 +1,49 @@
+/*
+    Colors(Lighter to Darker):
+        #bababa
+        #a9a9a9
+        #8c8c8d
+        #716d6d
+        #000000
+*/
+/* Main title */
+h1 {
+    border-bottom: dotted;
+    border-color: pink;
+    color: turquoise;
+}
+
+/* Title paragraph */
+p.title {
+    color: #8c8c8d;
+    text-shadow: 1px 1px #8c8c8d;
+    margin: 20px 20px 20px 20px;
+}
+
+/* normal paragraph */
+p {
+    width: 50%;
+}
+
+ul {
+    background-color: #eeeeee;
+    border: solid;
+    border-color: rebeccapurple;
+    border-width: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* E-mail */
+
+.email {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: orange;
+}

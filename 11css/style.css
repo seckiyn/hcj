@@ -1,3 +1,4 @@
+/*
 p {
     color: red;
 }
@@ -21,3 +22,52 @@ li li.extra-important {
     list-style-type: none;
     font-size: 0.4em;
 }
+
+ul li {
+    color: rebeccapurple;
+}
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: orange;
+}
+a:focus{
+    color: red;
+}
+a:hover {
+    color: white;
+    background-color: red;
+}
+p:hover {
+    color: white;
+    background-color: red;
+}
+li:hover {
+    color: white;
+    background-color: rebeccapurple;
+}
+*/
+/* This is a comment */
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+p {
+    color: red;
+    width: calc(10%);
+    transform: rotate(0.01turn);
+}
+p:hover {
+    background-color: rebeccapurple;
+}
+
+@media (min-width: 62.5em) {
+    body {
+        background: red url(../img/sister1.png) 10px 10px repeat fixed
+    }
+}
+
