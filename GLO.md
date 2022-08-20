@@ -18,8 +18,9 @@
     A strip across the bottom of the page that generally contains fine print, copyright notices, or contact info. It's a place to put common information (like the header) but usually, that information is not critical or secondary to the website itself. The footer is also sometimes used for SEO purposes, by providing links for quick access to popular content.
 
 # CSS
-Reference: "https://www.w3schools.com/cssref/css_selectors.asp"
-@rules   : "https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" 
+Reference          : "https://www.w3schools.com/cssref/css_selectors.asp"
+Attribute selectors: "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors"
+@rules             : "https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" 
 ## Style
 ### Basic Style
 tag-name {
@@ -66,4 +67,5 @@ article p span { }
 
 /* selects any <p> that comes directly after a <ul>, which comes directly after an <h1>  */
 h1 + ul + p { }
+
 
