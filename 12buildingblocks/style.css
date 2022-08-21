@@ -3,6 +3,7 @@
 p.helloworld {
     color: red;
 }
+/*
 ul{
     padding-top: 1em;
     padding-bottom: 1em;
@@ -11,7 +12,7 @@ ul{
     border-color: red;
     box-shadow: 2px 2px darkred;
 }
-
+*/
 article *:first-child {
     font-weight: bold;
 }
@@ -52,4 +53,39 @@ a[title="hell"]:hover{
 }
 .box::after {
     content: " This should be after the other content.";
+}
+/* Descendant Combinator ` `(one-space)*/
+
+p span.important {
+    color:red;
+}
+
+ul > li {
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 3px;
+}
+
+.whad {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 24px; */
+  animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+/* Boxes */
+* {
+    border: 1px solid blue;
+}
+
+.cd {
+    writing-mode: vertical-rl;
 }
