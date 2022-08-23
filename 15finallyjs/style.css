@@ -1,0 +1,9 @@
+p {
+    border-style: solid;
+    border-color: darkblue;
+    padding: 1em;
+}
+
+#hello {
+    color: red;
+}

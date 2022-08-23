@@ -3,4 +3,4 @@ gilb.jpg      :(CC0)          : "https://www.si.edu/object/girl-i-left-behind-me
 movie.mp4     :(Free To Use?) : "https://www.pexels.com/video/creative-purple-texture-abstract-7565884/"
 night-flag.csv:(None for now) : "My Creation"
 sister1.png   :(None for now) : "My Creation"
-
+star.png      :(????????????) : "https://mdn.github.io/css-examples/learn/images/star.png"
