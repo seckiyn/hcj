@@ -4,3 +4,5 @@ movie.mp4     :(Free To Use?) : "https://www.pexels.com/video/creative-purple-te
 night-flag.csv:(None for now) : "My Creation"
 sister1.png   :(None for now) : "My Creation"
 star.png      :(????????????) : "https://mdn.github.io/css-examples/learn/images/star.png"
+turn_on.png   :(None for now) : "My Creation"
+turn_off.png   :(None for now) : "My Creation"
